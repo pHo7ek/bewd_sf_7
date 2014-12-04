@@ -6,7 +6,7 @@ require 'pry-byebug'
 # 2 - Create another method that tests whether that word is a palindrome
 
 def my_reverse(string)
-  #use some sort of looping here 
+  word = string.chars
 end
 
 def is_palindrome?(word)
