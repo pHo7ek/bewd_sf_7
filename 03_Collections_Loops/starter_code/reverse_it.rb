@@ -7,6 +7,10 @@ require 'pry-byebug'
 
 def my_reverse(string)
   word = string.chars
+  if string.each do |letter|
+  	puts string.last
+  	then 
+  	string.
 end
 
 def is_palindrome?(word)
