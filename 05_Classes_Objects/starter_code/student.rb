@@ -1,5 +1,15 @@
-class Student
+require 'pry'
+require 'pry-byebug'
 
-attr_accessible :name, :major, :course, :grade
+#Student class
+class Student
+	attr_accessor :name, :major, :course, :grade
+
+	def intitialize(name, major, course, grade)
+		@name = name
+		@major = major
+		@course = course
+		@grade = grade
+	end
 
 end
